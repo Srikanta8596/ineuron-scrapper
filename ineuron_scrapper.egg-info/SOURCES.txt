@@ -1,0 +1,15 @@
+LICENSE.chromedriver
+setup.py
+constant/__init__.py
+constant/constant_variables.py
+database/__init__.py
+database/configuration.py
+database/mongodb.py
+database/s3.py
+database/sql.py
+ineuron_scrapper.egg-info/PKG-INFO
+ineuron_scrapper.egg-info/SOURCES.txt
+ineuron_scrapper.egg-info/dependency_links.txt
+ineuron_scrapper.egg-info/top_level.txt
+scrapper/__init__.py
+scrapper/ineuron_scrapper.py

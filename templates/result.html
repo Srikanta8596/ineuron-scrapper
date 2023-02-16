@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<!-- For Download -->
+<body>
+  <div class="content">
+    <h1 style="text-align: center">Click download button to download pdf files and insert in data in database</h1>
+
+    <div class="form" style="text-align: center;">
+        <form action="/download" method="POST">
+            <!-- <input type="text" name="content" id="content"> -->
+            <input type="submit" value="download">
+        </form>
+    </div>
+</div>
+
+<!-- Course Name and URLs -->
+  <div class="table-users">
+   <div class="header">Course Name & Link</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Name</th>
+         <th>URL</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+          <td>{{review['Name']}}</td>
+         <td>{{review['URL']}}</td>
+       {% endfor %}
+   </table>
+</div>
+
+
+
+</body>
+
+</html>
