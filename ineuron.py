@@ -60,7 +60,7 @@ def result():
             # ineuron_scrapper_obj.create_pdf_file(course_detail)
 
             #For testing i am taking 5 pdfs
-            for course in courses[:3]:
+            for course in courses:
                 print(course['URL'])
                 course_detail=ineuron_scrapper_obj.course_detail(course['URL'],driver)
                 

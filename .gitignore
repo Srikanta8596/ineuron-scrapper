@@ -7,9 +7,19 @@ ENV/
 env.bak/
 venv.bak/
 
+##
+.idea
+
 #config file
-configuration.py
+#database/configuration.py
 
 #log file
 scrapper.log
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+artifact/
+# C extensions
+*.so
