@@ -7,9 +7,7 @@ This is a project which will be used to scrap  the website of the ineuron.ai web
 2. FastAPI
 3. SQL
 4. MongoDB
-
-# Infrastructure Required
-1. AWS S3
+5. AWS S3
 
 
 # How to run
