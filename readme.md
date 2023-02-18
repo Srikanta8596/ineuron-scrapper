@@ -10,13 +10,12 @@ This is a project which will be used to scrap  the website of the ineuron.ai web
 
 # Infrastructure Required
 1. AWS S3
-2. AWS Elastic Beanstalk
-3. AWS CodePipeline
+
 
 # How to run
-Download or clone the repository in your local device
-Install all the requirements by pip install -r requirements.txt
-run the application by python ineuron.py
-Use your local host to access.
+- Download or clone the repository in your local device
+- Install all the requirements by pip install -r requirements.txt
+- run the application by python ineuron.py
+- Use your local host to access.
 
 
